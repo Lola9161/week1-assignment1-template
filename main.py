@@ -60,11 +60,13 @@ files = {
     "objects": 55,
     "packed-refs refs": 120,
 }
-file_sizes = None
+file_sizes = list(files.values())
 
 # from the same `files` dictionary, define the file_names variable so that it holds
 # the names only
-file_names = None
+file_names = list(files.keys())
+print(file_sizes)
+print(file_names)
 
 
 # from the list of first names below write code that gets rid of Melvin and Carlos
