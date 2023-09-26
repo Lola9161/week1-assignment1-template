@@ -27,7 +27,8 @@ single_string = None
 # Use the following text to create a string and assign it to quoted_string:
 # Sometimes you can use a ' character to denote minutes or " for seconds
 quoted_string = None
-
+quoted_string = """Sometimes you can use a ' character to denote minutes or " for seconds"""
+print(quoted_string)
 
 # The current condition does not evaluate correctly. Python has truthy values
 # and dictionaries is one of them. Update the code so that has_contacts will
