@@ -97,7 +97,8 @@ first_names = [
     'Carlos',
     'Michael'
  ]
-last_four_names = None
+last_four_names = first_names[-4:]
+print(last_four_names)
 
 
 # The following code breaks the function. You haven't seen
