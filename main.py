@@ -21,8 +21,8 @@ def create_message():
 # create a single string. The single_string should be a string and not a `None`
 name = "Monday"
 greeting = "Hello students!"
-single_string = None
-
+single_string = "It is " + name ". " + greeting
+print(single_string)
 
 # Use the following text to create a string and assign it to quoted_string:
 # Sometimes you can use a ' character to denote minutes or " for seconds
