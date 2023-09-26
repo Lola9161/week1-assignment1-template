@@ -46,7 +46,9 @@ else:
 # `apples` and `cost` variables
 apples = 4
 cost = 7.3
-numbers_string = None
+numbers_string = apples + "have costs of" + costs
+print(numbers_string)
+
 
 
 # from the following dictionary, define the file_sizes variable to hold all the sizes
