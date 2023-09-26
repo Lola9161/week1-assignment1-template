@@ -46,7 +46,7 @@ else:
 # `apples` and `cost` variables
 apples = 4
 cost = 7.3
-numbers_string = apples + "have costs of" + costs
+numbers_string = str(apples) + " apples have costs of " + str(cost)
 print(numbers_string)
 
 
