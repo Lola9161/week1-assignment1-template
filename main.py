@@ -4,7 +4,7 @@ for this week will come commented out.
 To pass, all automated testing of your inputs have to pass their tests.
 """
 
-
+# NEED HELP
 # The following exception is breaking the function. You haven't seen
 # functions yet, but concentrate in fixing the exception so that:
 # * the exception doesn't happen
@@ -30,6 +30,7 @@ quoted_string = None
 quoted_string = """Sometimes you can use a ' character to denote minutes or " for seconds"""
 print(quoted_string)
 
+# NEED HELP
 # The current condition does not evaluate correctly. Python has truthy values
 # and dictionaries is one of them. Update the code so that has_contacts will
 # evaluate to True instead of False
@@ -68,7 +69,7 @@ file_names = list(files.keys())
 print(file_sizes)
 print(file_names)
 
-
+# NEED HELP
 # from the list of first names below write code that gets rid of Melvin and Carlos
 # and assign the resulting list to new_first_names
 first_names = [
@@ -102,7 +103,7 @@ first_names = [
 last_four_names = first_names[-4:]
 print(last_four_names)
 
-
+# NEED HELP
 # The following code breaks the function. You haven't seen
 # functions yet, but concentrate in fixing the exception so that:
 # * the exception doesn't happen
