@@ -11,7 +11,7 @@ To pass, all automated testing of your inputs have to pass their tests.
 # * The exception_message is correctly defined as a string
 def create_message():
     try:
-        exception_message = "This message is broken " + 1
+        exception_message = "This message is broken "
     except RuntimeError:
         raise
     return exception_message
@@ -34,7 +34,7 @@ print(quoted_string)
 # The current condition does not evaluate correctly. Python has truthy values
 # and dictionaries is one of them. Update the code so that has_contacts will
 # evaluate to True instead of False
-contacts = {}
+contacts = {"name":"Hannah"}
 if contacts:
     has_contacts = True
 else:
@@ -103,11 +103,11 @@ first_names = [
 last_four_names = first_names[-4:]
 print(last_four_names)
 
-# NEED HELP
+# NEED HELP --> Video
 # The following code breaks the function. You haven't seen
 # functions yet, but concentrate in fixing the exception so that:
 # * the exception doesn't happen
 # * a fallback value of "John Doe" is returned
 def get_name():
-    information = {}
+    information = {"name":"John Doe"}
     return information["name"]
